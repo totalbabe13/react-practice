@@ -185,10 +185,15 @@ template {
   background-color: #f1d4ad;
 }
 .layout-header {
-  padding-top: 3vh;
+    padding-top: 3vh;
     background-color: #0074D9;
     font-size: 2em;
     color: white;
     text-align: center;
     height: 9vh;
+}
+.cards-container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   border: 1px solid #00ffee;
 }

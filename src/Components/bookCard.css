@@ -1,0 +1,11 @@
+
+.book-card {
+    height: 45vh;
+    width: 33vh;
+    border: 1px solid orange;
+    margin: 2vh;
+    background-color: #4cbb97;
+    margin: 0 1em 1.5em;
+    padding: 1.25em;
+    box-shadow: inset 14px 0px 4px 0px rgba(0,0,0,0.1);
+}
