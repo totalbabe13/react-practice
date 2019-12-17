@@ -13,6 +13,11 @@ class BookForm extends React.Component{
           <br/>
           <input id="pages-input"  type="text" name="pages-x" placeholder="PAGES" />
           <br/>
+
+          <div className="button-container">
+            <button id="save" type="submit"> SAVE </button>
+            <button id="cancel" type="reset"> CANCEL </button>
+          </div>
         </form>
       </div>
 
