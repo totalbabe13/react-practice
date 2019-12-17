@@ -1,0 +1,26 @@
+.add-button {
+    position: relative;
+    background-color: #61e061d9;
+    width: 6em;
+    height: 6em;
+    border-radius: 4em;
+    left: 86vw;
+    bottom: 18vh;
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,.2), 0 0 0 1px rgba(0,0,0,.08);
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+.plus {
+    display: block;
+    height: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+    transition: transform .8s ease-in-out;
+}
+.add-button:hover {
+  background-color: #61e061;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
