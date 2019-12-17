@@ -9,3 +9,41 @@
     padding: 1.25em;
     box-shadow: inset 14px 0px 4px 0px rgba(0,0,0,0.1);
 }
+
+.title-tag {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    color: #565656;
+    font-family: 'Abril Fatface', cursive;
+}
+.divider {
+  text-align: center;
+  color: #536c62;
+  padding-bottom: 1vh;
+  padding-top: 0vh;
+  position: relative;
+  bottom: 2em;
+}
+.author-container {
+    text-align: center;
+}
+
+.author-tag {
+    color: #565656;
+    font-family: 'Lato', sans-serif;
+}
+.buttons-container {
+    text-align: center;
+    margin-top: 2em;
+}
+.pages-container {
+    text-align: center;
+    margin-top: 14vh;
+}
+.pages-tag {
+    color: #565656;
+    font-family: 'Lato', sans-serif;
+}
