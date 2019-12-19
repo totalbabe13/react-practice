@@ -19,8 +19,8 @@
     -webkit-transition: -webkit-transform .8s ease-in-out;
     transition: transform .8s ease-in-out;
 }
-.add-button:hover {
-  background-color: #61e061;
+.add-button:hover >.plus {
+  background-color: #ffffff00;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }

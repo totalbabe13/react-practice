@@ -2,20 +2,50 @@ import React from 'react';
 import './addButton.css';
 import Modal from './Modal'
 
-const test = require('./plus.svg')
+const plusSign = require('./plus.svg');
 
 class AddButton extends React.Component {
-  handleClick(e) {
-    e.preventDefault();
-
+  constructor(props) {
+      super(props);
+      this.state = {
+        open: false,
+      }
+      this.handleClick = this.handleClick.bind(this);
   }
 
-  render(){
-    return(
-      <div className="add-button" onClick={this.handleClick}>
-        <img src={test} className="plus" alt="plus"/>
-      </div>
-    );
+  handleClick(e) {
+    e.preventDefault();
+    this.setState(state => ({
+        open: !state.open
+    })
+  )
+}
+
+
+  render() {
+
+    if (!this.state.open){
+      return (
+        <div className="add-button" onClick={this.handleClick}>
+          <img src={plusSign} className="plus" alt="plus"/>
+        </div>
+      )
+    } else {
+      return(
+        <div className="add-button" onClick={this.handleClick}>
+          <img src={plusSign} className="plus" alt="plus"/>
+          <Modal />
+        </div>
+      )
+
+    }
+
+
+    // return (
+        // <div className="add-button" onClick={this.handleClick}>
+        //   <img src={plusSign} className="plus" alt="plus"/>
+        // </div>
+    // );
   }
 }
 
