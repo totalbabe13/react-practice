@@ -17,13 +17,11 @@ class AddButton extends React.Component {
     e.preventDefault();
     this.setState(state => ({
         open: !state.open
-    })
-  )
-}
-
+       })
+    )
+  }
 
   render() {
-
     if (!this.state.open){
       return (
         <div className="add-button" onClick={this.handleClick}>
@@ -32,20 +30,12 @@ class AddButton extends React.Component {
       )
     } else {
       return(
-        <div className="add-button" onClick={this.handleClick}>
+        <div className="add-button" >
           <img src={plusSign} className="plus" alt="plus"/>
           <Modal />
         </div>
       )
-
     }
-
-
-    // return (
-        // <div className="add-button" onClick={this.handleClick}>
-        //   <img src={plusSign} className="plus" alt="plus"/>
-        // </div>
-    // );
   }
 }
 

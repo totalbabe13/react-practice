@@ -18,9 +18,3 @@ class Modal extends React.Component{
 };
 
 export default Modal;
-//  // <BookForm />
-// <div className="modal-content">
-//   <h2 className="modal-title">ADD NEW BOOK</h2>
-//   <p className="divider">_______________</p>
-//
-// </div>
